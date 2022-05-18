@@ -1,0 +1,66 @@
+.menuBox {
+    /* width: 900px; */
+    background-color: #fff;
+}
+
+.rowed {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.addBox {
+    display: flex;
+    flex-direction: column;
+}
+
+.mealName {
+    font-size: 18px;
+    color: black;
+    margin-bottom: 4px;
+}
+
+.mealDesc {
+    font-style: italic;
+    font-size: 16px;
+    margin: 0;
+}
+
+.mealPrice {
+    font-size: 20px;
+    color: #ad5502;
+    margin-top: 4px;
+    font-weight: 700;
+}
+
+.addInput {
+    outline: none;
+    padding: 1px 2px 1px 8px;
+    background-color: #fff;
+    width: 3rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font: inherit;
+    padding-left: 0.5rem;
+}
+
+.addLabel {
+    font-weight: 700;
+    margin-right: 1rem;
+}
+
+.inputBox {
+    margin-bottom: 12px;
+}
+
+.AddBtn {
+    font: inherit;
+    cursor: pointer;
+    background-color: #8a2b06;
+    border: 1px solid #8a2b06;
+    color: #fff;
+    padding: 0.25rem 2rem;
+    border-radius: 20px;
+    font-weight: 700;
+}
+

@@ -1,0 +1,13 @@
+.hero {
+    width: 100vw;
+    height: 400px;
+    background-image: url("../../../Components/assets/imgs/meals.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 400px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: rotate(-5deg);
+    overflow-x: hidden;
+    z-index: -10;
+}

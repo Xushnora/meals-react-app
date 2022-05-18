@@ -1,0 +1,85 @@
+
+.modalBox {
+    padding: 5px;
+}
+.modal__list {
+    list-style-type: none;
+    padding: 0;
+    height: 250px;
+    overflow-y: hidden;
+}
+
+.modal__inner {
+    overflow-y: scroll;
+    height: 250px;
+}
+
+.modal__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #8a2b06;
+}
+.modal__title {
+    font-size: 24px;
+    color: #363636;
+    margin: 0 0 8px 0;
+}
+.modal__price {
+    font-weight: 700;
+    color: #8a2b06;
+    font-size: 18px;
+}
+.modal__btn {
+    font: inherit;
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: #8a2b06;
+    border: 1px solid #8a2b06;
+    width: 3rem;
+    text-align: center;
+    border-radius: 6px;
+    background-color: transparent;
+    cursor: pointer;
+    margin: 0.25rem;
+}
+.modal__amount {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 16px;
+    background-color: #fff;
+}
+.modal__close {
+    font: inherit;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid #8a2b06;
+    padding: 0.5rem 2rem;
+    border-radius: 25px;
+    margin-left: 1rem;
+}
+.modal__order {
+    font: inherit;
+    cursor: pointer;
+    background-color: #8a2b06;
+    border: 1px solid #8a2b06;
+    padding: 0.5rem 2rem;
+    border-radius: 25px;
+    margin-left: 1rem;
+    color: #fff;
+}
+.modal__price-amount {
+    font-weight: 700;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: flex-end;
+}
+.modal__count {
+    font-weight: 700;
+    border: 1px solid #ccc;
+    padding: 0.25rem 0.75rem;
+    border-radius: 6px;
+    color: #363636;
+}
